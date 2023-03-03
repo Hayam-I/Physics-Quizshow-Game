@@ -1,0 +1,161 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Nov 25, 2022, 8:31:55 PM
+    Author     : LEEN
+*/
+
+#grid {
+    -fx-pref-width: 400;
+    -fx-pref-height: 300;
+    -fx-font-family: "Cambria";
+    -fx-font-size: 60px;
+    -fx-background-color: #04215b;
+     -fx-text-fill: white;
+   
+       
+}
+#buttons {
+   
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #610001 0%, #a10204  100%),
+        #610001,
+        #a10204;
+       
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+     -fx-text-fill: white;
+     -fx-font-family: "Cambria";
+}
+#buttons:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #610001 0%, #b3393a 100%),
+        #610001,
+        #b3393a;
+       
+         -fx-text-fill: white;
+         -fx-font-family: "Cambria";
+}
+#buttons:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+
+#instructions {
+    -fx-font-family: "Cambria";
+    -fx-text-fill: #04215b;
+    -fx-font-size: 35px;
+}
+
+#labels {
+    -fx-font-family: "Cambria";
+    -fx-text-fill: white;
+    -fx-font-size: 50px;
+}
+
+
+#buttons2 {
+   
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #610001 0%, #a10204  100%),
+        #610001,
+        #a10204;
+       
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+     -fx-text-fill: white;
+     -fx-font-family: "Cambria";
+}
+#buttons2:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #610001 0%, #b3393a 100%),
+        #610001,
+        #b3393a;
+       
+         -fx-text-fill: white;
+         -fx-font-family: "Cambria";
+}
+#buttons2:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+#buttons3 {
+   
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #2E67CF 0%, #5C84D9  100%),
+        #2E67CF,
+        #5C84D9;
+       
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+     -fx-text-fill: #F0BC63;
+     -fx-font-family: "Cambria";
+}
+#buttons3:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #2E67CF 0%, #84A3E3 100%),
+        #2E67CF,
+        #84A3E3;
+       
+         -fx-text-fill: #F0BC63;
+         -fx-font-family: "Cambria";
+}
+#buttons3:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#buttons4 {
+   
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #FFB357 0%, #FFCE71  100%),
+        #FFB357,
+        #FFCE71;
+       
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+     -fx-text-fill: #C9AAF2;
+     -fx-font-family: "Cambria";
+}
+#buttons4:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #FFB357 0%, #FCE3A0 100%),
+       #FFB357,
+        #FCE3A0;
+       
+         -fx-text-fill: #C9AAF2;
+         -fx-font-family: "Cambria";
+}
+#buttons4:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+#label{
+    -fx-font-family: "Cambria";
+    -fx-text-fill: firebrick;
+    -fx-font-size: 25 px;
+    
+}

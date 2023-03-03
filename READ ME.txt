@@ -1,0 +1,3 @@
+To install the game, extract the zip file and add it to a NetBeans editor. Compile the code then run the file named "Launch". (DO NOT RUN any of the files labeled L1,L2,L3,L4).
+
+In case of an error, go to CommonElements file and change the screenWidth and screenHeight variables into a fixed number like: screenWidth = 1000 and screenHeight = 500 (depending on your device's specs)
